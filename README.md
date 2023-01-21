@@ -1,4 +1,6 @@
 # cheatsheets
-Collection of Cheetsheets on Various Topics
+This is a repository of cheatsheets for various programming languages and tools.
 
-CPP [https://github.com/marshalmiller/cheatsheets/tree/main/cpp](/cpp/functions.md)
+Please feel free to contribute by adding new cheatsheets or improving existing ones.
+
+[CPP](/cpp/functions.md)
