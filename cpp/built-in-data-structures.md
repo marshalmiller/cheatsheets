@@ -1,4 +1,4 @@
-### [CPP](../README.md)
+### [C++](../README.md)
 
 # Built-In Data Structures
 
