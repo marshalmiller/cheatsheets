@@ -1,4 +1,4 @@
-### [SQL](../README.md)
+### [SQL](./README.md)
 # Working With Your First Database
 
 ## Column Constraints

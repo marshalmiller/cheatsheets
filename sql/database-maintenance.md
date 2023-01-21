@@ -1,4 +1,4 @@
-### [SQL](../README.md)
+### [SQL](./README.md)
 # Database Maintenance
 
 Updates and Deletes Effect on Table Size

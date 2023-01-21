@@ -1,4 +1,4 @@
-### [SQL](../README.md)
+### [SQL](./README.md)
 # Normalizing a Database
 
 Database Normalization

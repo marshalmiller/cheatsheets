@@ -1,4 +1,4 @@
-### [SQL](../README.md)
+### [SQL](./README.md)
 # Creating an Organized Database
 
 Entity Relationship Diagrams

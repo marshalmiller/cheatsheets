@@ -1,4 +1,4 @@
-### [C++](../README.md)
+### [C++](./README.md)
 # Conditionals & Logic
 if Statement
 

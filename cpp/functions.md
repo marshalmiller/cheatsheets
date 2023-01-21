@@ -1,4 +1,4 @@
-### [C++](../README.md)
+### [C++](./README.md)
 # Functions
 
 ## Introduction to Functions

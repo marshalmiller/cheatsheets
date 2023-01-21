@@ -1,4 +1,4 @@
-### [C++](../README.md)
+### [C++](./README.md)
 # Basic Syntax
 
 Program Structure

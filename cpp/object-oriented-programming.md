@@ -1,4 +1,4 @@
-### [C++](../README.md)
+### [C++](./README.md)
 # Object-Oriented Programming
 
 Classes and Objects

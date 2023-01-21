@@ -1,4 +1,4 @@
-### [SQL](../README.md)
+### [SQL](./README.md)
 # How Do I Make Sure My Database Stays Intact?
 
 Data Types As Constraints
