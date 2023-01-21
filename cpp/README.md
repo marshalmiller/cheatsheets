@@ -2,7 +2,7 @@
 This page links to various cheatsheets for the C++ programming languge.
 
 ### [Basic Syntax](/basic-syntax.md)
-### [Built-in Data Structures](built-in-datas-structures.md)
+### [Built-in Data Structures](built-in-data-structures.md)
 ### [Classes and Objects](classes-and-objects.md)
 ### [Conditions and Logic](conditions-and-logic.md)
 ### [Control Flow](control-flow.md)
