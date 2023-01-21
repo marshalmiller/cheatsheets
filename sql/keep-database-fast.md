@@ -1,3 +1,4 @@
+### [SQL](../README.md)
 # How Do I Make Sure My Database Stays Fast?
 
 A Downside of Indexes: Space
