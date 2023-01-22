@@ -5,9 +5,10 @@
 
 C++ programs run line by line and generally follow the same program structure:
 
-    #include statements at the beginning of the program, which allow access to library functionalities.
-    main() function, which is run when the program is executed.
-    return 0 at the end of the main() function, which indicates that the program ran without issues.
+#include statements at the beginning of the program, which allow access to library functionalities.
+main() function, which is run when the program is executed.
+return 0 at the end of the main() function, which indicates that the program ran without issues.
+
 ```
 #include <iostream>
 using namespace std;
@@ -22,14 +23,17 @@ int main() {
 Comments are notes left by the programmer that explain complex code. Comments do not affect the performance of a program because they are ignored by the compiler.
 
 In C++, there are two types of comments:
+
 ```
     Single-line: begin with //.
     Multi-line: begin with /* and end with */.
 ```
 As a rule of thumb, comments should always go above the code they are commenting on.
+
 ```
 // I am a single-line comment
 ```
+
 ```
 /* 
 I am a
@@ -45,6 +49,7 @@ Input and output make C++ programs more interactive.
     std::cout is the “character output” and it is used together with << to print to the terminal.
     std::cin is the “character input” and it is used together with >> to read user input.
     std::endl or \n can be used to insert a new line.
+
 ```
 #include <iostream>
 
@@ -57,6 +62,7 @@ int main() {
   return 0;
 }
 ```
+
 ## Variables
 
 Variables are used to store and retrieve data. When declaring a variable, it must be given a data type and a name.
