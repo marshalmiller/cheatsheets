@@ -12,7 +12,7 @@ A function declaration is composed of three parts:
     Function parameters
 
 A function can be called by specifying its name followed by a pair of parentheses ().
-
+```
 #include <iostream>
 
 void printTitle() {
@@ -25,15 +25,15 @@ int main(){
 
   return 0;
 }
-
-Function Parameters
+```
+## Function Parameters
 
 When calling a function with multiple parameters, the number and order of the arguments must match with the parameters.
 
 Default parameters initialize to a default value if an argument is not provided in the function call.
 
 Pass by reference lets the function modify the arguments variables. Use the & operator to indicate that a parameter is passed by reference.
-
+```
 #include <iostream>
 
 double totalPrice(int items, double price = 9.99) {
@@ -54,8 +54,8 @@ int main() {
 
   return 0;
 }
-
-Function Overloading
+```
+## Function Overloading
 
 With function overloading, C++ functions can have the same name but handle different input parameters.
 
@@ -65,7 +65,7 @@ At least one of the following criteria must be true in order for functions to be
     Each function has a different number of parameters.
 
 The function return type is NOT used to differentiate overloaded functions.
-
+```
 #include <iostream>
 
 int add(int a, int b) {
@@ -87,15 +87,15 @@ int main() {
   std::cout << "\n";
   std::cout << add(2, 6, 9);  // Calls add(int, int, int)
 }
-
-Command Line Arguments
+```
+## Command Line Arguments
 
 Command line arguments are optional arguments passed to the main() function of a C++ program.
 
 Passing command line arguments is as easy as appending the arguments after the executable name. For example:
-
+```
 ./greeting Hello World
-
+```
 In order to access command line arguments, the new form of main() takes two arguments:
 
     argc: the number of command line arguments.
@@ -103,12 +103,12 @@ In order to access command line arguments, the new form of main() takes two argu
 
 
 
-Return Values
+## Return Values
 
 A function that returns a value must have a return statement. The data type of the return value also must match the method’s declared return type.
 
 On the other hand, a void function (one that does not return anything) does not require a return statement.
-
+```
 #include <iostream>
 
 int sum(int a, int b);
@@ -121,13 +121,13 @@ int main() {
 int sum(int a, int b) {
   return(a + b);
 }
-
-Parameters
+```
+## Parameters
 
 Function parameters are placeholders for values passed to the function. They act as variables inside a function.
 
 Here, x is a parameter that holds a value of 10 when it’s called.
-
+```
 #include <iostream>
 
 void print(int);
@@ -139,11 +139,11 @@ int main() {
 void print(int x) {
   std::cout << x;
 }
-
-Functions
+```
+## Functions
 
 A function is a set of statements that are executed together when the function is called. Every function has a name, which is used to call the respective function.
-
+```
 #include <iostream>
 
 // Declaring a function
@@ -157,11 +157,11 @@ int main() {
 void print() {
   std::cout << "Hello World!";
 }
-
-Built-in Functions
+```
+## Built-in Functions
 
 C++ has many built-in functions. In order to use them, we have to import the required library using #include.
-
+```
 #include <iostream>
 #include <cmath>
 
@@ -171,18 +171,18 @@ int main() {
   std::cout << sqrt(10);
   
 }
-
-Calling a Function
+```
+## Calling a Function
 
 In C++, when we define a function, it is not executed automatically. To execute it, we need to “call” the function by specifying its name followed by a pair of parentheses ().
 
 // calling a function
 print();
 
-void Functions
+## void Functions
 
 In C++, if we declare the type of a function as void, it does not return a value. These functions are useful for a set of statements that do not require returning a value.
-
+```
 #include <iostream>
 
 void print() {
@@ -192,18 +192,18 @@ void print() {
 int main() { 
   print();
 }
-
-Function Declaration & Definition
+```
+## Function Declaration & Definition
 
 A C++ function has two parts:
 
-    Function declaration
-    Function definition
+  *  Function declaration
+  *  Function definition
 
 The declaration includes the function’s name, return type, and any parameters.
 
 The definition is the actual body of the function which executes when a function is called. The body of a function is typically enclosed in curly braces.
-
+```
 #include <iostream>
 
 // function declaration
@@ -218,11 +218,11 @@ int main() {
 void blah() {
   std::cout << "Blah blah";
 }
-
-Function Arguments
+```
+## Function Arguments
 
 In C++, the values passed to a function are known as arguments. They represent the actual input values.
-
+```
 #include <iostream>
 
 void print(int);
@@ -236,14 +236,14 @@ int main() {
 void print(int a) {
   std::cout << a;  
 }
-
-Scope of Code
+```
+## Scope of Code
 
 The scope is the region of code that can access or view a given element:
 
     Variables defined in global scope are accessible throughout the program.
     Variables defined in a function have local scope and are only accessible inside the function.
-
+```
 #include <iostream>
 
 void print();
@@ -260,13 +260,13 @@ void print() {
   std::cout << i << "\n"; 
   std::cout << j << "\n";
 }
-
-Function Declarations in Header file
+```
+## Function Declarations in Header file
 
 C++ functions typically have two parts: declaration and definition.
 
 Function declarations are generally stored in a header file (.hpp or .h) and function definitions (body of the function that defines how it is implemented) are written in the .cpp file.
-
+```
 // ~~~~~~ main.cpp ~~~~~~
 
 #include <iostream>
@@ -296,8 +296,8 @@ std::string say_hi(std::string name) {
   return "Hey there, " + name + "!\n";
 
 }
-
-Function Template
+```
+## Function Template
 
 A function template is a C++ tool that allows programmers to add data types as parameters, enabling a function to behave the same with different types of parameters. The use of function templates and template parameters is a great C++ resource to produce cleaner code, as it prevents function duplication.
 Default Arguments
