@@ -143,13 +143,13 @@ Relational operators are used to compare two values and return true or false dep
 
    * != not equal to
 
-   * > greater than
+   * \> greater than
 
-   * < less than
+   * \< less than
 
-   * >= greater than or equal to
+   * \>= greater than or equal to
 
-   * <= less than or equal to
+   * \<= less than or equal to
 ```
 if (a > 10) {
    // ☝️ means greater than
