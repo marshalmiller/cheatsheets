@@ -6,7 +6,9 @@
 C++ programs run line by line and generally follow the same program structure:
 
 #include statements at the beginning of the program, which allow access to library functionalities.
+
 main() function, which is run when the program is executed.
+
 return 0 at the end of the main() function, which indicates that the program ran without issues.
 
 ```
@@ -18,7 +20,7 @@ int main() {
   return 0;
 }
 ```
-### Comments
+## Comments
 
 Comments are notes left by the programmer that explain complex code. Comments do not affect the performance of a program because they are ignored by the compiler.
 
@@ -45,10 +47,13 @@ comment
 
 Input and output make C++ programs more interactive.
 
-    #include <iostream> must be placed at the beginning of the program to access input and output.
-    std::cout is the “character output” and it is used together with << to print to the terminal.
-    std::cin is the “character input” and it is used together with >> to read user input.
-    std::endl or \n can be used to insert a new line.
+   #include <iostream> must be placed at the beginning of the program to access input and output.
+    
+   std::cout is the “character output” and it is used together with << to print to the terminal.
+    
+   std::cin is the “character input” and it is used together with >> to read user input.
+    
+   std::endl or \n can be used to insert a new line.
 
 ```
 #include <iostream>
@@ -82,8 +87,8 @@ const int pi = 3.14;
 
 C++ provides two powerful features for memory manipulation:
 
-    References: aliases to existing variables
-    Pointers: store memory address as its value
+  References: aliases to existing variables
+  Pointers: store memory address as its value
 
 Reference variables are created using the & symbol. & is also used to access the memory address of a variable.
 
