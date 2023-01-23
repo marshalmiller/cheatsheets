@@ -7,9 +7,9 @@ A function in C++ contains a set of instructions that are executed when it is ca
 
 A function declaration is composed of three parts:
 
-    Function return type
-    Function name
-    Function parameters
+   * Function return type
+   * Function name
+   * Function parameters
 
 A function can be called by specifying its name followed by a pair of parentheses ().
 ```
@@ -61,8 +61,8 @@ With function overloading, C++ functions can have the same name but handle diffe
 
 At least one of the following criteria must be true in order for functions to be properly overloaded:
 
-    Each function has different types of parameters.
-    Each function has a different number of parameters.
+   * Each function has different types of parameters.
+   * Each function has a different number of parameters.
 
 The function return type is NOT used to differentiate overloaded functions.
 ```
@@ -98,8 +98,8 @@ Passing command line arguments is as easy as appending the arguments after the e
 ```
 In order to access command line arguments, the new form of main() takes two arguments:
 
-    argc: the number of command line arguments.
-    argv: an array containing the values of command line arguments.
+   * argc: the number of command line arguments.
+   * argv: an array containing the values of command line arguments.
 
 
 
@@ -175,10 +175,10 @@ int main() {
 ## Calling a Function
 
 In C++, when we define a function, it is not executed automatically. To execute it, we need to “call” the function by specifying its name followed by a pair of parentheses ().
-
+```
 // calling a function
 print();
-
+```
 ## void Functions
 
 In C++, if we declare the type of a function as void, it does not return a value. These functions are useful for a set of statements that do not require returning a value.
@@ -241,8 +241,8 @@ void print(int a) {
 
 The scope is the region of code that can access or view a given element:
 
-    Variables defined in global scope are accessible throughout the program.
-    Variables defined in a function have local scope and are only accessible inside the function.
+   * Variables defined in global scope are accessible throughout the program.
+   * Variables defined in a function have local scope and are only accessible inside the function.
 ```
 #include <iostream>
 
