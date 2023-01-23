@@ -1,8 +1,8 @@
 # [SQL](README.md)
 This page links to various cheatsheets for SQL.
 
-### [Aggregate Functions](aggregate-functions.md)
-### [Constraints](constraints.md)
+### [What Can Database Do?](what-can-databases-do.md)
+### [Your First Database](your-first-database.md)
 ### [Create, Update, and Deleting Data](create-update-deleting-data.md)
 ### [Creating an Organized Database](creating-an-organized-database.md)
 ### [Database Maintenance](database-maintenance.md)
@@ -15,5 +15,5 @@ This page links to various cheatsheets for SQL.
 ### [Performing Calculations](performing-calculations.md)
 ### [Queries](queries.md)
 ### [Triggers](triggers.md)
-### [What Can Database Do?](what-can-databases-do.md)
-### [Your First Database](your-first-database.md)
+### [Aggregate Functions](aggregate-functions.md)
+### [Constraints](constraints.md)
