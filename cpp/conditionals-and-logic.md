@@ -1,35 +1,35 @@
 ### [C++](./README.md)
 # Conditionals & Logic
-if Statement
+## if Statement
 
 An if statement is used to test an expression for truth.
 
-    If the condition evaluates to true, then the code within the block is executed; otherwise, it will be skipped.
-
+   * If the condition evaluates to true, then the code within the block is executed; otherwise, it will be skipped.
+```
 if (a == 10) {
   // Code goes here
 }
-
-else Clause
+```
+## else Clause
 
 An else clause can be added to an if statement.
 
-    If the condition evaluates to true, code in the if part is executed.
-    If the condition evaluates to false, code in the else part is executed.
-
+   * If the condition evaluates to true, code in the if part is executed.
+   * If the condition evaluates to false, code in the else part is executed.
+```
 if (year == 1991) {
   // This runs if it is true
 }
 else {
   // This runs if it is false
 }
-
-switch Statement
+```
+## switch Statement
 
 A switch statement provides a means of checking an expression against various cases. If there is a match, the code within starts to execute. The break keyword can be used to terminate a case.
 
 default is executed when no case matches.
-
+```
 switch (grade) {
   case 9:
     std::cout << "Freshman\n";
@@ -47,31 +47,31 @@ switch (grade) {
     std::cout << "Invalid\n";
     break;
 }
-
-Relational Operators
+```
+## Relational Operators
 
 Relational operators are used to compare two values and return true or false depending on the comparison:
 
-    == equal to
+   * == equal to
 
-    != not equal to
+   * != not equal to
 
-    > greater than
+   * > greater than
 
-    < less than
+   * < less than
 
-    >= greater than or equal to
+   * >= greater than or equal to
 
-    <= less than or equal to
-
+   * <= less than or equal to
+```
 if (a > 10) {
    // ☝️ means greater than
 }
-
-else if Statement
+```
+## else if Statement
 
 One or more else if statements can be added in between the if and else to provide additional condition(s) to check.
-
+```
 if (apple > 8) {
   // Some code here
 }
@@ -81,15 +81,15 @@ else if (apple > 6) {
 else {
   // Some code here
 }
-
-Logical Operators
+```
+## Logical Operators
 
 Logical operators can be used to combine two different conditions.
 
-    && requires both to be true (and)
-    || requires either to be true (or)
-    ! negates the result (not)
-
+   * && requires both to be true (and)
+   * || requires either to be true (or)
+   * ! negates the result (not)
+```
 if (coffee > 0 && donut > 1) {
   // Code runs if both are true
 }
@@ -101,3 +101,4 @@ if (coffee > 0 || donut > 1) {
 if (!tired) {
   // Code runs if tired is false
 }
+```
