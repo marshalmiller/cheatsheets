@@ -1,6 +1,7 @@
 # [SQL](README.md)
 This page links to various cheatsheets for SQL.
 
+### [Basics](basics.md)
 ### [What Can Database Do?](what-can-databases-do.md)
 ### [Your First Database](your-first-database.md)
 ### [Create, Update, and Deleting Data](create-update-deleting-data.md)
